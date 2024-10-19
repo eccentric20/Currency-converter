@@ -1,0 +1,48 @@
+body,html{
+    display: flex;
+    margin: 0;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #b79ebc;
+}
+
+#curr{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 400px;
+    width: 500px;
+}
+
+#curr h1{
+    margin-top: 10px;
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+}
+
+#calc{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#from, #to{
+    margin-top: 40px;
+}
+
+#but{
+    
+    margin-top: 40px;
+    
+}
+
+#result h4{
+    margin-top: 0;
+}
+
+

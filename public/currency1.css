@@ -1,0 +1,93 @@
+/* General body styling */
+body {
+    background-color: #e0f7fa; /* Light blue background */
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main container styling */
+#curr {
+    background-color: #ffffff;
+    padding: 40px;
+    padding-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    text-align: center;
+}
+
+/* Heading */
+#heading h1 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #00796b; /* Teal */
+    margin-bottom: 20px;
+}
+
+
+
+/* Amount input */
+#am label, #from label, #to label {
+    font-weight: bold;
+    color: #004d40; /* Dark teal */
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+}
+
+#am input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #b2dfdb;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Dropdowns */
+#calc select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #b2dfdb;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Convert button */
+#but button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+#but button:hover {
+    background-color: #004d40; /* Darker teal on hover */
+}
+
+/* Converted Amount and Result section */
+#conv-am h4, #result h4 {
+    font-size: 18px;
+    color: #388e3c; /* Green for result headings */
+    margin-top: 20px;
+}
+
+/* Final result styling */
+#fin-res {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d32f2f; /* Red for final converted result */
+    margin-top: 10px;
+}

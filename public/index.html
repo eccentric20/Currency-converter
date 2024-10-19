@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="currency1.css">
+</head>
+<body>
+    <div id="curr">
+        <div id="heading"><h1>Currency Converter</h1></div>
+        <div id="calc">
+            <div id="am">
+                <label for="Amount">Amount</label>
+                <input type="number" id="amount" name="amount">
+            </div>
+            <div id="from">
+                <label for="dropdown">From :</label>
+                <select id="dropdown1"></select>
+            </div>
+            <div id="to">
+                <label for="dropdown">To :</label>
+                <select id="dropdown2"></select>
+            </div>
+            <div id="but">
+                <button type="submit">Convert</button>
+            </div>
+            
+            <div id="result">
+                <h4 id="fin-res"></h4>
+            </div>
+            
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./currency.js"></script>
+</body>
+</html>
